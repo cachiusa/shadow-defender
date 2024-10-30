@@ -23,7 +23,7 @@ line = "hash={}\n".format(hash)
 with open(r"C:\\Program Files\\Shadow Defender\\user.dat", 'r') as file:
   data = file.readlines()
 
-for ptr in range(len(data)):
+for ptr in range(len(data)-1):
   if "hash=" in data[ptr]:
     del data[ptr]
 data.append(line)
