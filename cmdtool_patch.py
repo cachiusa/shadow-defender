@@ -1,4 +1,4 @@
-defender_path = "C:\\Program files\Shadow Defender\CmdTool.exe"
+defender_path = "C:\\Program files\\Shadow Defender\\CmdTool.exe"
 
 with open(defender_path, "rb") as reader:     
     defender_data = reader.read()
